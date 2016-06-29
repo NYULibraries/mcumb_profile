@@ -55,7 +55,16 @@ function mcumb_profile_install() {
       'pages' => '',
       'cache' => -1,
     ),
-
+ array(
+      'module' => 'mediacommons_blocks',
+      'delta' => 'mc_fieldguide',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'umb_homepage_sidebar',
+      'pages' => '',
+      'cache' => -1,
+    ),
     // View: Single Hub latest
     array(
       'module' => 'views',
@@ -78,28 +87,28 @@ function mcumb_profile_install() {
       'pages' => '',
       'cache' => -1,
       ),
-     // View: 6 most recent hubs
-    array(
-      'module' => 'block',
-      'delta' => '1',
-      'theme' => $default_theme,
-      'status' => 1,
-      'weight' => 2,
-      'region' => 'umb_homepage_sidebar',
-      'pages' => '',
-      'cache' => -1,
-      ),
-         // View: 6 most recent hubs
-    array(
-      'module' => 'block',
-      'delta' => '2',
-      'theme' => $default_theme,
-      'status' => 1,
-      'weight' => 0,
-      'region' => 'umb_homepage_sidebar',
-      'pages' => '',
-      'cache' => -1,
-      ),
+    //  // View: 6 most recent hubs
+    // array(
+    //   'module' => 'block',
+    //   'delta' => '1',
+    //   'theme' => $default_theme,
+    //   'status' => 1,
+    //   'weight' => 2,
+    //   'region' => 'umb_homepage_sidebar',
+    //   'pages' => '',
+    //   'cache' => -1,
+    //   ),
+    //      // View: 6 most recent hubs
+    // array(
+    //   'module' => 'block',
+    //   'delta' => '2',
+    //   'theme' => $default_theme,
+    //   'status' => 1,
+    //   'weight' => 0,
+    //   'region' => 'umb_homepage_sidebar',
+    //   'pages' => '',
+    //   'cache' => -1,
+    //   ),
 
 
 array(
