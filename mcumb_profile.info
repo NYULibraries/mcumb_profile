@@ -26,6 +26,7 @@ dependencies[] = field_group
 dependencies[] = pathauto
 dependencies[] = viewfield
 
+dependencies[] = mediacommons_admin
 dependencies[] = mediacommons_content_types
 dependencies[] = mediacommons_roles_and_permissions
 dependencies[] = mediacommons_text_formats
